@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+.contacts-list-container{
+    width:500px;
+    margin-left: 370px;
+}
+.contacts-list-container li{
+    list-style: none;
+}
+.details {
+    display:flex;
+    justify-content: center;
+}
+.details p{
+    padding-inline: 30px;
+    margin:auto;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px rgb(216, 110, 110);
+}
+.contact{
+    margin-bottom: 20px;
+    background-color: rgb(134, 134, 230);
+    margin-bottom: 2px;
+    display: flex;
+    box-shadow: 1px 1px grey;
+}
+.contact .details{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+.contact .delete-button{
+    margin-top: 3px;
+}
+
+.contact .delete-button a{
+    color:white;
+    background-color: red;
+}
