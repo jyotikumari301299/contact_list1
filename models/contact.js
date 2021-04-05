@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// creating schemas
+// creating Schemas 
 
 const contactSchema = new mongoose.Schema({
     name:{
